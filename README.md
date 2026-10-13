@@ -2,7 +2,7 @@
 
 A small, single-player Arma 3 mission demonstrating how to record a helicopter flight and replay its movement using a duplicate helicopter.
 
-This is the companion mission for [Recording and Playing Back Helicopter Movement in SQF](https://armachisel.com/articles/recording-helicopter-movement-in-sqf/) on ArmaChisel. The article explains the recording format, coordinate systems, timing, interpolation, and the commented SQF example.
+This is the companion mission for [Recording and Playing Back Helicopter Movement in SQF](https://armachisel.com/articles/recording-helicopter-movement-in-sqf/) on [ArmaChisel](https://armachisel.com/). The article explains the recording format, coordinate systems, timing, interpolation, and the commented SQF example.
 
 ## Requirements
 
@@ -51,7 +51,7 @@ After editing `init.sqf`, save it and restart the Eden preview. Do not repeatedl
 
 ## Scope and limitations
 
-This is a teaching example, not the full LZ Trainer replay system. It records timestamps, ASL positions, nose/up vectors, and velocity, then blends saved states on each render frame. The sampling interval is a target, not a guaranteed rate.
+This is a teaching example, not the full replay system from [Chisel's LZ Trainer (Helicopter Landings)](https://steamcommunity.com/sharedfiles/filedetails/?id=3759453452). It records timestamps, ASL positions, nose/up vectors, and velocity, then blends saved states on each render frame. The sampling interval is a target, not a guaranteed rate.
 
 - Recordings are kept in memory only; there is no export or persistence between sessions.
 - No replay camera, seeking, replay-speed controls, or multiplayer support.
